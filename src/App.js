@@ -1,5 +1,5 @@
-import { useState } from "react";
-import "./App.css";
+// import { useState } from "react";
+// import "./App.css";
 
 function App() {
   // const [cals, setClas] = useState("");
@@ -45,7 +45,7 @@ function App() {
   //   </div>
   // );
 
-  <h1>Hello world</h1>
+  return <h1>Hello world</h1>;
 }
 
 export default App;
