@@ -8,7 +8,7 @@ function App() {
   const ops = ["/", "*", "+", "-", "."];
 
   const updateCalc = (value) => {
-    setCalc(calc + value);
+    // setCalc(calc + value);
   };
 
   const createDigits = () => {
