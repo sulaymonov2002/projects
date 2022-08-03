@@ -2,7 +2,7 @@ import React, { Component } from "react";
 
 export class Calculator extends Component {
   state = {
-    nums: [1, 2, 3, 4, 5, 6, 7, 8, 9, 0],
+    numbers: [1, 2, 3, 4, 5, 6, 7, 8, 9, 0],
     inputValue: "",
     firstValue: 0,
     secondValue: 0,
@@ -42,7 +42,7 @@ export class Calculator extends Component {
     return (
       <div>
         <input type="text" value={this.state.inputValue} />
-        {this.state.nums.map((num) => (
+        {this.state.numbers.map((num) => (
           <button
             onClick={() => {
               this.addValue(num);
